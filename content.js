@@ -23,7 +23,6 @@
     ["overpass",            "flyover"],
     ["underpass",           "subway"],
     ["traffic circle",      "roundabout"],
-    ["rotary",              "roundabout"],
     ["center divider",      "central reservation"],
     ["median strip",        "central reservation"],
     ["gas station",         "petrol station"],
@@ -51,7 +50,6 @@
     ["railroad",            "railway"],
     ["railroad car",        "railway carriage"],
     ["subway",              "underground"],
-    ["metro",               "underground"],
     ["engineer",            "driver"],  // train context — risky but common
 
     // Food & drink
@@ -193,7 +191,7 @@
     ["ballpark figure",     "rough estimate"],
     ["gotten",              "got"],
     ["snuck",               "sneaked"],
-    ["dove",                "dived"],    // past tense of dive
+    //["dove",                "dived"],    // past tense of dive
     ["pled",                "pleaded"],
     ["on the lam",          "on the run"],
     ["a dime a dozen",      "ten a penny"],
@@ -202,11 +200,11 @@
     ["touch base",          "check in"],
     ["reach out",           "get in touch"],
     ["circle back",         "follow up"],
-    ["ping",                "drop a message to"],
+    //["ping",                "drop a message to"],
     ["leverage",            "use"],
     ["utilize",             "use"],
     ["utilization",         "use"],
-    ["leverage",            "use"],
+    //["leverage",            "use"],
     ["gonna",               "going to"],
     ["wanna",               "want to"],
     ["gotta",               "got to"],
