@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Angliciser",
+  "version": "1.0",
+  "description": "Translates American English into proper British English, converts currencies and temperatures.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://www.theregister.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Anglicizer"
+  },
+  "icons": {
+    "48": "icons/icon48.png"
+  }
+}
